@@ -28,6 +28,11 @@ int main()
 
     int count = AreaCalculator::getCount();
     cout<< "count: " << count << endl;
+
+
+
+
+
     return 0;
 }
 	
