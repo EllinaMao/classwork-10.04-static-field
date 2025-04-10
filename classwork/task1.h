@@ -7,14 +7,10 @@ class AreaCalculator {
 
 private:
 
-	double x;
-	double y;
 	static int count; 
 
 public:
 
-	AreaCalculator();
-	AreaCalculator(double x1, double y1);
 	
 	~AreaCalculator();
 

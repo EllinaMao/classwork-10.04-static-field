@@ -1,18 +1,6 @@
 #include "task1.h"
 int AreaCalculator::count = 0;
 
-AreaCalculator::AreaCalculator()
-{
-	x = 0;
-	y = 0;
-}
-
-AreaCalculator::AreaCalculator(double x1, double y1)
-{
-	x = x1;
-	y = y1;
-}
-
 AreaCalculator::~AreaCalculator()
 {
 	count--;
